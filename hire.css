@@ -1,0 +1,93 @@
+* ::after ::before{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+p a span div section main h1 h3 h2 h4 {
+    margin: 0%;
+    padding: 0%;
+    color: #3d3d3d;
+    text-decoration: none;
+    list-style: none;  
+}
+body{
+    background-color: #fcfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+   
+    z-index: -3;
+     padding-top: 2em;
+     height: 100%;
+     background-image: url('./images/visual-img.png');
+     background-color: #072207;
+     opacity: 0.9;
+     color: #fcfcfc;
+     margin-bottom: 0em;
+     padding-bottom: 0%;
+ }
+ 
+.nav__links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    margin-top: 0em;
+    padding-top: 0%;
+}
+
+.header1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    margin-left: 15em;
+    margin-top: 0em;
+
+}
+.pi{
+    margin-right: 1em;
+}
+
+.header1 a{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    color: #3d3d3d;
+
+}
+
+.image__logo{
+    z-index: 3;
+    margin-left: 2em;
+}
+.hire{
+    margin: 7em;
+    text-align: center;
+}
+span{
+    color: tomato;
+}
+.hire h2{
+    font-size: 3em;
+}
+.hire a{
+    text-decoration: none;
+    list-style: none;
+    color: #3d3d3d;
+}
+a:hover{
+    color: tomato;
+}
+
+.hire a{
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
